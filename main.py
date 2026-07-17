@@ -4,6 +4,7 @@ load_dotenv()
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
 from langchain_core.output_parsers import StrOutputParser
+#prompt = ChatPromptTemplate.from_template("Explain {topic} like I'm switching careers into it.")
 
 prompt = ChatPromptTemplate.from_templateprompt = ChatPromptTemplate.from_template(
     "You are a teacher. Explain the concept of {topic} clearly, "
